@@ -1,0 +1,2 @@
+revChatGPT
+discord.py
