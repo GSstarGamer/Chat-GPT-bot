@@ -13,7 +13,7 @@ def idk_what_is_this_for(yo_mama_so_fat_it_cant_fit_in_this_argument_xd):
     return balls.decode(yo_mama_so_fat_it_cant_fit_in_this_argument_xd, 'rot13')
 
 chatGPT_token = config['ChatGPT']['auth_token']
-chatGPT_channel_id = config['ChatGPT']['channel_id']
+chatGPT_channel_id = int(config['ChatGPT']['channel_id'])
 bot_token = config['Discord']['bot_token']
 
 intents = discord.Intents.all()
